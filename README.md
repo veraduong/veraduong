@@ -1,3 +1,3 @@
-# veraduong.github.io
+# veraduong
 
 **This will become my personal site :)**
