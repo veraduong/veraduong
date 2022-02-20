@@ -1,12 +1,9 @@
-/* https://colorhunt.co/palette/6867aca267acce7bb0ffbcd1 */
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
 body {
-    /* background: #FEFE62; */
     background-color: #FFD6E3;
 }
 
@@ -60,7 +57,7 @@ a:visited {
     color: #81538A;
 }
 
-button {
+input[type=submit] {
     background-color: #CE7BB0; 
     border: none;
     color: white;
@@ -74,7 +71,7 @@ button {
     border-radius: 12px;
 }
 
-button:hover {
+input[type=submit]:hover {
 
     background-color: #924977; 
     border: none;
