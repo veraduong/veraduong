@@ -57,7 +57,7 @@ a:visited {
     color: #81538A;
 }
 
-button {
+a.btn {
     background-color: #CE7BB0; 
     border: none;
     color: white;
@@ -71,7 +71,7 @@ button {
     border-radius: 12px;
 }
 
-button:hover {
+a.btn:hover {
     background-color: #924977; 
     border: none;
     color: white;
