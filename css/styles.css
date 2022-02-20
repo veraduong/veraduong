@@ -1,0 +1,104 @@
+/* https://colorhunt.co/palette/6867aca267acce7bb0ffbcd1 */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    /* background: #FEFE62; */
+    background-color: #FFD6E3;
+}
+
+#toc_container {
+    background: #FDE8F3 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #6867AC;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.85em;
+    margin-bottom: 20px;
+    text-indent: 30px;
+    color: #4D4D80;
+}
+
+#labelprog {
+    color: #6867AC;
+}
+
+ul, ol {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    color: #4D4D80;
+}
+
+/* unvisited link */
+a:link {
+    color: #D185DE;
+}
+  
+/* visited link */
+a:visited {
+    color: #81538A;
+}
+
+button {
+    background-color: #CE7BB0; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+
+    background-color: #924977; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FDE8F3;
+    /* color: white; */
+    bottom: 0;
+    width: 100%;
+}
