@@ -57,7 +57,7 @@ a:visited {
     color: #81538A;
 }
 
-input[type=submit] {
+a.btn {
     background-color: #CE7BB0; 
     border: none;
     color: white;
@@ -71,8 +71,7 @@ input[type=submit] {
     border-radius: 12px;
 }
 
-input[type=submit]:hover {
-
+a.btn:hover {
     background-color: #924977; 
     border: none;
     color: white;
@@ -84,7 +83,6 @@ input[type=submit]:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-
 }
 
 img {
