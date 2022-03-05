@@ -93,19 +93,84 @@ a.btn:hover {
 }
 
 @media screen and (max-width: 400px) { /* iPhone */
+
     h1 {
-        
-        color: yellow;
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    
+    .topnav a {
+        display: grid;
+        overflow: hidden;
+        background-color: #FDE8F3;
+        display: block;
+        padding: 14px 16px;
+    }
+
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.85em;
+        margin-bottom: 20px;
+        text-indent: 30px;
+        color: #4D4D80;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    ul, ol {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.7em;
+        margin-bottom: 15px;
+        color: #4D4D80;
     }
 }
 
 @media screen and (min-width: 401px) { /* large screen */
-    h1 {
-        color: red;
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #FDE8F3;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .lst {
+        display: flex; /* one line */
+        flex-flow: row wrap;
+        padding: 40px;
+        gap: 17px;
+    }
+
+    .beg {
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: center;
+        gap:50px;
+    }
+
+    .centerThis {
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 50px;
     }
 }
-
-
 
 footer {
     text-align: center;
