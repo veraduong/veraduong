@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    border-top: 6px solid;
+    border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+    border-image-slice: 1;
+}
+
+body {
+    background-color: #faeee7;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 400px 500px;
+    grid-template-rows: auto;
+    column-gap: 100px;
+    grid-template-areas: 
+      "hello pic"
+      "button para";
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #33272a;
+    grid-area: hello;
+}
+
+p {
+    grid-area: para;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: #33272a;
+  }
+
+img {
+    grid-area: pic;
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    border:6px dotted #fa709a;
+    grid-area: pic;
+    align-self: center;
+}
+
+.imgToggle {
+    grid-area: pic;
+    border-radius: 50%;
+    max-width: 90%;
+    height: auto;
+    border:6px dotted #fa709a;
+    grid-area: pic;
+    align-self: center;
+}
+
+button {
+    transition: color 1000ms ease-in-out;
+    font-size: 35px;
+    border-radius: 50px;
+    grid-area: button;
+}
+
+.is-blue {
+    background-color: #00b3ff;
+}
