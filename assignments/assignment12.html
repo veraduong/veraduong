@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 12 Demo -- Quote Machine</title>
+    <link rel="stylesheet" href="../css/assignment12.css">
+    <script defer src="../js/assignment12.js"></script>
+  </head>
+  <body>
+
+    <div class="app">
+      <header>Random Quote Generator</header>
+      <section class="quotes">
+        <div class="quote-text" id="js-quote-text">
+        </div>
+        <footer class="blockquote-footer" id="js-quote-auth"></footer> 
+      </section>
+
+      <hr>
+
+      <section class="controls">
+
+        <div class="twitter-button">
+            <a class="twitter" id="tweet" href="https://twitter.com/intent/tweet?text=Greetings"><i class="fab fa-twitter"></i>Tweet</a>
+            <button type="button" id="js-new-quote" class="new-quote button">
+                Generate a random quote
+              </button>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- <button type="button" id="js-new-quote" class="new-quote button">
+          Generate a random quote
+        </button> -->
+      </section>
+
+      <p>
+        My new extension to the quote machine is to add a way for users to tweet the generated quote. I've also included the author of the quote.
+        The new API I used is: https://api.quotable.io/random
+    </p>
+
+    </div>
+
+  </body>
+</html>

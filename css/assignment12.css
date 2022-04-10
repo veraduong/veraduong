@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    border-top: 6px solid;
+    border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+    border-image-slice: 1;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #faeee7;
+  }
+
+  p {
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+    color: #33272a;
+  }
+  
+  .app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #33272a;
+  }
+  
+  .quotes {
+    padding: 20px 50px;
+    min-height: 200px;
+  }
+  
+  .quote-text {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: #33272a;
+  }
+
+  #parent {
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.twitter-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between: 50px;
+    align-items: center;
+    margin-top: 9px;
+    gap: 60px;
+}
+
+.twitter {
+    border:1px solid rgb(102, 179, 255);
+    border-radius: 4px;
+    background-color: rgb(102, 179, 255);
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    text-decoration: none;
+    width: 60px;
+    height: 35px;
+    line-height: 40px;
+}
+
+  footer {
+    /* padding-bottom: 20px; */
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #47373b;
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  .new-quote {
+    background-color: #fa709a;
+    margin-bottom: 15px;
+  }
+  
+  .new-quote:hover {
+    background-color: #f7c9c9;
+  }
+  
+  .new-quote:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .app {
+      width: 100%;
+    }
+    .quote-text {
+      font-size: 18px;
+    }
+  }
+  
