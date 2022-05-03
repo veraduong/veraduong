@@ -4,54 +4,60 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-        <title>Projects</title>
+        <title>Projects - Javascript</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script defer src="js/site.js"></script>
       </head>
       <body>
 
         <div class="container">
           <!-- Navigation -->
           <div class="topnav">
-            <a href="uses.html" class="hover-underline-animation">Uses</a>
+            <a href="toolbox.html" class="hover-underline-animation">Toolbox</a>
             <a href="projects.html" class="hover-underline-animation">Projects</a>
-            <a href="about.html" class="hover-underline-animation">About</a>
+            <a href="about.html" class="hover-underline-animation">About Me</a>
             <a href="index.html" class="hover-underline-animation">Home</a>
           </div>
 
           <h1>Projects</h1>
+          
+          </div> <!--end container div --> 
 
+          <div class="slideshow-container">
 
-          <div class="projectGrid">
-            <div class="google">
-              <a href="https://github.com/veraduo/interactive-story-game">
-                <img src="img/googleProject.png" class="project" alt="google assistant interactive game project">
-                <figcaption>Google Assistant - "Interactive Story Game" Repo</figcaption>
-              </a>
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/googleProject.svg" style="width:100%" alt="image of google assistant interactive game">
+              <div class="text">This <a href="https://github.com/veraduo/interactive-story-game">conversatioal story game</a> can be deployed to the Google Assistant or a website. 
+                At the end, users have to make a critical choice which is logged by hosting a NodeJS website and PostgreSQL database on Heroku.
+              </div>
             </div>
-
-            <div class="fire">
-              <a href="https://www.figma.com/file/e7Qglo1P3UHuAPyK2Lt1w5/UPDATED-Disaster-Radar?node-id=105%3A0">
-                <img src="img/fireProject.jpg" class="project" alt="Fire Disaster App">
-                <figcaption>Figma - "Disaster Radar" Fire Safety App</figcaption>
-              </a>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/fireProject.svg" style="width:100%" alt="image of fire safety app">
+              <div class="text">This <a href="https://www.figma.com/proto/e7Qglo1P3UHuAPyK2Lt1w5/UPDATED-Disaster-Radar?node-id=105%3A1&scaling=scale-down&page-id=105%3A0&starting-point-node-id=105%3A1">Natural Disaster Relief App</a> allows users to find critical information as well as provide reliable and dependable resources that are updated often.</div>
             </div>
-
-            <div class="tofu">
-              <a href="https://veraduong.github.io/assignments/assignment3.html">
-                <img src="img/tofuProject.jpg" class="project" alt="Tofu Wiki">
-                <figcaption>Tofu Encyclopedia</figcaption>
-              </a>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/kirbyProject.svg" style="width:100%" alt="image of kirby super star ultra">
+              <div class="text">This "Kirby Super Star Ultra" inspried text-based game was created in C++. It lets users fight enemies and complete missions.</div>
             </div>
-
-            <div class="chess">
-              <a href="https://veraduong.github.io/assignments/assignment5.html">
-                <img src="img/chessProject.jpg" class="project" alt="HTML Challenges">
-                <figcaption>HTML Challenges</figcaption>
-              </a>
-            </div>
-
-          </div> <!--end projct grid div --> 
-        </div> <!--end container div --> 
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+          </div>
+            
+          <br>
+            
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
 
       </body>
     </html>

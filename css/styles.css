@@ -4,7 +4,7 @@ html {
     border-top: 6px solid;
     border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
     border-image-slice: 1;
-  }
+}
 
 body {
     background-color: #faeee7;
@@ -138,12 +138,86 @@ span.amp {
   text-decoration: none;
 }
 
-figcaption {
+.figcaption {
   color: #fa709a;
   font-weight: 550;
   font-size: 1.2rem;
   padding: 5px;
   text-align: center;
+}
+
+.slideshow-container {
+  max-width: 950px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next { /* Next & previous buttons */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #fe437c;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next { /* Position "next button" to the right */
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text { /* Caption of slide show */
+  color: #33272a;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding-bottom: 7px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text a {color:#c9033e}
+
+.numbertext { /* Slide show number */
+  color: #33272a;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot { 
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: rgb(192, 180, 180);
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover { background-color: #7d6f6f;}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) { /* Media Small Screen - Slide Show */
+  .prev, .next,.text {font-size: 11px}
 }
 
 
@@ -260,7 +334,7 @@ figcaption {
     text-decoration: none;
     font-size: max(1.3rem, 15px);
     font-weight: 600;
-    padding:20px;
+    padding:12px;
   }
 
   .projectGrid {
@@ -304,7 +378,7 @@ figcaption {
     text-decoration: none;
     font-size: max(1.3rem, 15px);
     font-weight: 600;
-    padding:14px
+    padding:10px
   }
 
   .myLinks a {
